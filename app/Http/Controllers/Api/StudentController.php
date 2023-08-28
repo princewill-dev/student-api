@@ -23,7 +23,7 @@ class StudentController extends Controller
         } else {
             return response()->json([
                 'status' => 400,
-                'message' => 'no records found'
+                'message' => 'no records found'   
             ], 200);
         }
 
